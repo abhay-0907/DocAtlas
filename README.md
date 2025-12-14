@@ -76,25 +76,24 @@ Retrieved Document Chunks
 OpenAI GPT (LLM) ← Prompt + Context → Final Answer
 
 ## Project Structure
-
-├── backend
-│ ├── src
-│ │ ├── routes
-│ │ ├── controllers
-│ │ ├── services
-│ │ │ ├── ragService.js
-│ │ │ ├── embeddingService.js
-│ │ │ ├── qdrantService.js
-│ │ ├── workers
-│ │ │ └── fileProcessor.js
-│ │ └── utils
-│ └── app.js
-│
-├── frontend
-│ ├── src
-│ │ ├── components
-│ │ ├── assest
-│ │ ├── pages
-│ └── App.js
-│
-└── README.md
+## ├── backend
+## │ ├── src
+## │ │ ├── routes
+## │ │ ├── controllers
+## │ │ ├── services
+## │ │ │ ├── ragService.js
+## │ │ │ ├── embeddingService.js
+## │ │ │ ├── qdrantService.js
+## │ │ ├── workers
+## │ │ │ └── fileProcessor.js
+## │ │ └── utils
+## │ └── app.js
+---
+##├── frontend
+## │ ├── src
+## │ │ ├── components
+## │ │ ├── assest
+## │ │ ├── pages
+## │ └── App.js
+## │
+## └── README.md
