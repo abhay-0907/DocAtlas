@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "InterRegular24";
+    src: url('/src/assets/fonts/Inter_24pt-Regular.ttf');
+}
+@font-face {
+    font-family: "InterRegular18";
+    src: url('/src/assets/fonts/Inter_18pt-Regular.ttf');
+}
+@font-face {
+    font-family: "InterRegular28";
+    src: url('/src/assets/fonts/Inter_28pt-Regular.ttf');
+}
+@font-face {
+    font-family: "InterBlack24";
+    src: url('/src/assets/fonts/Inter_24pt-Black.ttf');
+}
+@property --border-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+
+
+
